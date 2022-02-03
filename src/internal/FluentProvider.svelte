@@ -1,6 +1,6 @@
 <script context="module">
 	import { getContext, setContext, createEventDispatcher } from 'svelte';
-	import { mapBundleSync } from '@fluent/sequence';
+	import { mapBundleSync, mapBundleAsync } from '@fluent/sequence';
 	import { derived, writable } from 'svelte/store';
 
 	const CONTEXT_KEY = {};
